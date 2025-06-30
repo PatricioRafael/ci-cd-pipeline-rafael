@@ -1,0 +1,21 @@
+{
+  "name": "ci-cd-pipeline-rafael",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "mkdir -p build && cp -r src build/",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.3",
+    "supertest": "^7.1.1"
+  }
+}
